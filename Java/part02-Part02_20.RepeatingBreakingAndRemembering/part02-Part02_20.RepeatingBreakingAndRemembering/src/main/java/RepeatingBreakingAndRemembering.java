@@ -25,7 +25,9 @@ public class RepeatingBreakingAndRemembering {
                 odd++;
             }
 
+            // Sum = sum + number;
             sum += number;
+            // count = count +1;
             count++;
         }
 
