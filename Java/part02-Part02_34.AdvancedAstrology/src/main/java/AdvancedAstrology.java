@@ -29,13 +29,13 @@ public class AdvancedAstrology {
         // part 3 of the exercise
         for (int i = 1; i <= height; i++) {
             printSpaces(height - i);
-            printStars(i * 2 - 1) ;
+            printStars(i * 2 - 1);
         }
         int baseHigh = 2;
         int baseWide = 3;
 
 
-        for (int i = 0; i < baseHigh; i++){
+        for (int i = 0; i < baseHigh; i++) {
             printSpaces(height - 2);
             printStars(baseWide);
         }
