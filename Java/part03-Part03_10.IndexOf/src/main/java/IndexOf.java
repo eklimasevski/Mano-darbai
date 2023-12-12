@@ -27,14 +27,5 @@ public class IndexOf {
                 System.out.println(searchNumber + " is at index " + index);
             }
         }
-//        int index = 0;
-//        for (int i = 0; i < list.size(); i++) {
-//            if (list.get(i) == serchNumber) {
-//                index = i;
-//            }
-//        }
-//        System.out.println(serchNumber + " is at index " + index);i
-
-
     }
 }
