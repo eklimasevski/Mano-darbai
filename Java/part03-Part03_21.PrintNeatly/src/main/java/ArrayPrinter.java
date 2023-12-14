@@ -11,23 +11,13 @@ public class ArrayPrinter {
 
     public static void printNeatly(int[] array) {
 
-        int count = 0;
 
-        for (int number : array) {
-            System.out.print(number);
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i]);
 
-            if (count < array.length - 1) {
-                System.out.print(",");
+            if (i < array.length - 1) {
+                System.out.print(", ");
             }
-            count++;
-
-//            for (int numbers = 0; numbers < array.length; numbers++){
-//                System.out.print(array[numbers]);
-//
-//                if (numbers < array.length - 1) {
-//                    System.out.print(", ");
-//            }
-//        }
         }
     }
 }
