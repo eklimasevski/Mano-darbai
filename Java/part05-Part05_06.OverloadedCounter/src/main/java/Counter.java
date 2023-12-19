@@ -28,9 +28,9 @@ public class Counter {
         }
     }
 
-    public void decrease(int decraseBy) {
-        if (decraseBy > 0) {
-            value -= decraseBy;
+    public void decrease(int decreaseBy) {
+        if (decreaseBy > 0) {
+            value -= decreaseBy;
         }
     }
 
