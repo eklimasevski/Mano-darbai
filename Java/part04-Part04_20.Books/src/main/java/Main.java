@@ -25,12 +25,12 @@ public class Main {
         }
 
         System.out.print("What information will be printed? ");
-        String all = scanner.nextLine();
+        String input = scanner.nextLine();
 
         for (Book book : books) {
-            if (all.equals("everything")) {
+            if (input.equals("everything")) {
                 System.out.println(book);
-            } else if (all.equals("name")) {
+            } else if (input.equals("name")) {
                 System.out.println(book.getName());
             }
         }
