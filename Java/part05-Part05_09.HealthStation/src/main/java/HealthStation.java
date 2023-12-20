@@ -1,5 +1,5 @@
 public class HealthStation {
-    
+
     private int numberOfWeighings;
 
     public int weigh(Person person) {
@@ -8,7 +8,7 @@ public class HealthStation {
     }
 
     public void feed(Person person) {
-        person.setWeight(weigh(person) + 1);
+        person.setWeight(person.getWeight() + 1);
     }
 
     public int weighings() {
