@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div>Title</div>
+
+      <input type="radio" name="title" value="bio" id="mr" />
+      <label for="mr">Mr</label>
+
+      <input type="radio" name="title" value="bio" id="mrs" />
+      <label for="mrs">Mrs</label>
+
+      <input type="radio" name="title" value="bio" id="miss" />
+      <label for="miss">Miss</label>
+
+      <br /><br />
+      <div><label for="firstName">First name:</label></div>
+      <div><input type="text" name="username" id="firstName" /></div>
+      <br />
+
+      <div><label for="lastName">Last name:</label></div>
+      <div><input type="text" name="username" id="lastName" /></div>
+      <br />
+
+      <div><label for="email">Email:</label></div>
+      <div><input type="email" id="email" name="email" /></div>
+      <br />
+
+      <div><label for="phone">Phone number:</label></div>
+      <div>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" />
+      </div>
+      <br />
+
+      <div><label for="password">Password:</label></div>
+      <div><input type="password" id="password" /></div>
+      <br />
+
+      <div><label for="country">Country</label></div>
+      <select id="country">
+        <option value="">China</option>
+        <option value="Europe">Europe</option>
+        <option value="Asia">Asia</option>
+        <option value="Africa">Africa</option>
+      </select>
+      <br /><br />
+
+      <input type="checkbox" id="agree" name="agree" value="choise" />
+      <label for="agree"
+        ><b>I agree to the<a href=""> terms and conditions</a></b></label
+      >
+      <br /><br />
+      <input type="submit" value="Sign in" />
+      <input type="reset" value="Reset form" />
+    </form>
+  </body>
+</html>
