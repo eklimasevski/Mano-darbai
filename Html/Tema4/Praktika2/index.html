@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Užpildykite formą:</h1>
+    <p><b>Visi laukai privalomi</b></p>
+    <form>
+      <div><label for="vardas">Vardas (iš didžiosios raidės)</label></div>
+      <div>
+        <input
+          type="text"
+          name="vardas"
+          id="vardas"
+          placeholder="Vardas"
+          pattern="[A-Z][a-z]*"
+          required
+        />
+      </div>
+      <br />
+
+      <div><label for="phone">Jūsų telefono numeris:</label></div>
+      <div>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          pattern="\+[0-9]{3}-[0-9]{3}-[0-9]{5}"
+          placeholder="+370-xxx-xxxxx"
+          required
+        />
+      </div>
+      <br />
+
+      <div><label for="email">El.pašto adresas:</label></div>
+      <div>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="el.p.adresas"
+          required
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="url"
+          >Jūsų mėgstamiausios internetinės svetainės adresas:</label
+        >
+      </div>
+      <input
+        type="url"
+        name="url"
+        id="url"
+        placeholder="url adresas"
+        required
+      />
+      <br /><br />
+
+      <div><label for="gimtadienis">Jūsų gimimo data:</label></div>
+      <div>
+        <input type="date" id="gimtadienis" name="gimtadienis" required />
+      </div>
+      <br />
+
+      <div><label for="age">Jūsų amžius:</label></div>
+      <div>
+        <input
+          type="number"
+          id="age"
+          name="age"
+          min="18"
+          max="65"
+          placeholder="Nuo 18 iki 65 metų"
+          required
+        />
+      </div>
+      <br />
+
+      <div><label for="post-code">Jūsų pašto kodas:</label></div>
+      <div>
+        <input
+          type="text"
+          id="post-code"
+          name="post-code"
+          pattern="[A-Z]{2}-[0-9]{5}"
+          placeholder="XX-01234"
+          required
+        />
+      </div>
+      <br />
+
+      <p>Jūsų mėgstamiausia spalva:</p>
+      <div><input type="color" id="body" name="body" value="#000000" /></div>
+
+      <br />
+      <div><input type="submit" value="Pateikti" /></div>
+    </form>
+  </body>
+</html>
