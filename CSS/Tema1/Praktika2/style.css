@@ -216,6 +216,11 @@ footer {
 */
 footer ul {
     list-style-position:inside;
+    text-decoration: none;
+}
+footer a {
+    color: white;
+    text-decoration: none;
 }
 
 
