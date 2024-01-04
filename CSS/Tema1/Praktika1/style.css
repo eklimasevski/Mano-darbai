@@ -1,0 +1,91 @@
+/* 
+Style the HTML elements according to the following instructions. 
+WRITE ONLY CSS!
+*/
+
+
+/* Give the <body> element a background of lightgray*/
+/* <body> elemento fono spalva: lightgray */
+body {
+    background-color: lightgray;
+}
+
+
+/* Make the <h1> element purple */
+/* <h1> elemento spalva: purple */
+h1 {
+    color: purple;
+}
+
+
+/* Make all <h2> and <h3> elements orange */
+/* Visų <h2> ir <h3> elementu spalva: orange*/
+h2, h3 {
+    color: orange;
+}
+
+
+/* Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px) */
+/* Visų <p> elementų, esančių <div> elemente, šrifto dydis: 25px */
+div p {
+    font-size: 25px;
+}
+
+
+/* Give everything with the class 'hello' a white background*/
+/* Visų elementų, turinčių klasę "hello", fono spalva: white*/
+.hello {
+    background-color: white;
+}
+
+/* Give the element with id 'special' a 2px solid blue border */
+/* Elemento, turinčio id "special", rėmelis (border): 2px solid blue */
+#special {
+    border: 2px solid blue;
+}
+
+
+/* Make the <span> element in <p> element with id 'special2' a 2px solid red border */
+/* <span> elemento, esančio <p> elemente su id "special2", rėmelis: 2px solid red */
+#special2 span {
+    border: 2px solid red;
+}
+
+/* Change the style of multilevel list in <div> element: first level of list darkblue, second - pupple */
+/* Kelių lygių sąrašo, esančio div elemente, pirmojo lygmens spalva: darkblue, antrojo: pupple */
+div ul li {
+    color: darkblue;
+}
+div ul ul li {
+    color: purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
