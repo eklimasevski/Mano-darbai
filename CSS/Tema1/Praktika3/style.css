@@ -1,0 +1,65 @@
+header h1 {
+    color: white;
+    background-color: #1B1817;
+}
+header span {
+    color: orange;
+}
+header nav {
+    background-color: grey;
+}
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+figcaption {
+    color: orange;
+    font-style: italic;
+    text-align: right;
+    padding-bottom: 15px;
+}
+article h3 {
+    text-transform: uppercase;
+}
+.container p {
+    word-spacing: 20px;
+    text-indent: 20px;
+}
+article p span {
+    color: orange;
+    letter-spacing: 20px;
+}
+
+article a {
+    text-transform: uppercase;
+    color: orange;
+    text-decoration: none;
+}
+
+aside section h4 {
+    color: white;
+    background-color: grey;
+    letter-spacing: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+main aside section nav {
+    text-align: center;
+}
+
+main aside section nav a {
+    color: orange;
+    text-decoration: none;
+}
+footer {
+    color: white;
+    background-color: #1B1817;
+    text-align: center;
+}
+
+
+i {
+    color: orange;
+    font-size: 40px;
+    padding-left: 20px;
+}
