@@ -2,7 +2,7 @@ li:nth-last-child(4n + 3) {
   color: orange;
 }
 
-li:nth-child(2n - 2):hover {
+li:nth-child(3n + 2):hover {
   color: pink;
 }
 
