@@ -1,0 +1,13 @@
+li:nth-last-child(4n + 3) {
+  color: orange;
+}
+
+li:nth-child(2n - 2):hover {
+  color: pink;
+}
+
+ul {
+  border: 2px solid black;
+  width: 200px;
+  height: 170px;
+}
