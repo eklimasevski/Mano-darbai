@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>To Do List</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>TO DO LIST</h2>
+      <ul>
+        <li onclick="go(this);">Make a to do list</li>
+        <li onclick="go(this);">Check Off first item</li>
+        <li onclick="go(this);">
+          Realize you already did 2 things on the list
+        </li>
+        <li onclick="go(this);">Reward yourself with a nice, long nap</li>
+      </ul>
+    </div>
+    <script>
+      function go(e) {
+        e.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
