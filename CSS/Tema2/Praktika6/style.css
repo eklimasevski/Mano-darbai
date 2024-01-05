@@ -47,11 +47,11 @@ div {
 /* 
 * Aprašyti mygtukų Submit ir Reset fono spalvas 
 */
-input[type="Submit"] {
+input[type="submit"] {
   background-color: rgb(195, 133, 143);
 }
 
-input[type="Reset"] {
+input[type="reset"] {
   background-color: rgb(247, 170, 187);
 }
 
@@ -64,10 +64,10 @@ input:hover {
   background-color: rgb(195, 194, 194);
 }
 
-input[type="Submit"]:hover {
+input[type="submit"]:hover {
   background-color: rgb(223, 59, 59);
 }
 
-input[type="Reset"]:hover {
+input[type="reset"]:hover {
   background-color: rgb(216, 94, 114);
 }
