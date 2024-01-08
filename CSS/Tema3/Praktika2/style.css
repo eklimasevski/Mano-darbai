@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+
+body {
+  font-family: "Salsa", cursive;
+  background-color: rgb(168, 216, 200);
+}
+
+.card {
+  margin: 10px auto;
+  width: 300px;
+  padding: 20px 35px;
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1,
+.text {
+  border: 1px solid gray;
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+.text p:first-child {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
