@@ -1,0 +1,85 @@
+.sumustekas {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.bandele-top {
+  height: 70px;
+  border-radius: 900px 900px 100px 100px;
+  background-color: #a27732;
+  border-bottom: 9px solid #906725;
+}
+
+.suris {
+  height: 15px;
+  width: 419px;
+  background-color: rgba(242, 193, 32, 255);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.65);
+  margin-left: -10px;
+}
+
+.kecupas {
+  height: 22px;
+  width: 18em;
+  background-color: rgb(138, 1, 1);
+  margin: 0 auto;
+}
+
+.rutuliukas {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.463);
+  margin-left: 23px;
+  padding-bottom: 2px;
+  padding-left: 24px;
+}
+
+.svogunas {
+  height: 20px;
+  width: 16em;
+  background-color: rgb(100, 5, 98);
+  margin: 0 auto;
+}
+
+.mesa {
+  background-color: #684204;
+  width: 98px;
+  height: 70px;
+  border-radius: 100%;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: -50px;
+  margin-bottom: -3px;
+}
+
+.agurkelis {
+  height: 40px;
+  width: 20em;
+  border-radius: 100px 100px 900px 900px;
+  background-color: rgba(58, 198, 125, 255);
+  border-bottom: 9px solid rgba(45, 153, 97, 255);
+  margin: 0 auto;
+}
+
+.mesos-paplotelis {
+  height: 30px;
+  border-radius: 900px 900px 900px 900px;
+  background-color: #442b01;
+  border-bottom: 1px solid #382301;
+}
+
+.bandele-bottom {
+  height: 40px;
+  width: 23em;
+  border-radius: 100px 100px 900px 900px;
+  background-color: #a27732;
+  border-top: 9px solid #906725;
+  margin: 0 auto;
+}
+
+.lekste {
+  height: 25px;
+  width: 29em;
+  border-radius: 100px 100px 900px 900px;
+  background-color: #424242;
+  margin-left: -2em;
+}
