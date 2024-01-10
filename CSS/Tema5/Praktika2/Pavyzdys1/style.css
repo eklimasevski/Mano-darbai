@@ -1,0 +1,38 @@
+div {
+  text-align: center;
+}
+
+.div1 {
+  border: 1px solid black;
+  width: 100px;
+  height: 400px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+.div2 {
+  border: 1px solid black;
+  width: 100px;
+  height: 400px;
+  position: absolute;
+  top: 0.5em;
+  left: 8em;
+}
+
+.div3 {
+  border: 1px solid black;
+  width: 100px;
+  height: 400px;
+  position: absolute;
+  top: 0.5em;
+  left: 14.8em;
+}
+
+.div4 {
+  border: 1px solid black;
+  width: 100px;
+  height: 400px;
+  position: absolute;
+  top: 0.5em;
+  left: 21.7em;
+}
