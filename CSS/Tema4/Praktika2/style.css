@@ -1,0 +1,84 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #ffffcd;
+}
+
+/* Block */
+.btn {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 1em;
+  margin: 2px;
+  border: 2px solid;
+}
+
+/* Modifier color */
+.btn--light-blue {
+  background-color: #2f98f5;
+  border-color: #2f98f5;
+}
+
+.btn--blue {
+  background-color: blue;
+  border-color: blue;
+}
+
+/* Modifier color */
+.btn--orange {
+  border-color: #de712d;
+  background-color: #ff8336;
+}
+
+/* Modifier color*/
+.btn--green {
+  border-color: #3d9970;
+  background-color: #3d9970;
+}
+
+.btn--red {
+  border-color: #f80c0c;
+  background-color: #f80c0c;
+}
+
+.btn-row {
+  margin-top: 4em;
+}
+
+.btn--outline {
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.btn__text--transparent {
+  color: transparent;
+}
+
+.btn--radius {
+  border-radius: 4px;
+}
+
+.btn--gradient-blue {
+  background: linear-gradient(lightblue, blue);
+}
+.btn--gradient-orange {
+  background: linear-gradient(rgb(255, 255, 225), #ff8336);
+}
+.btn--gradient-green {
+  background: linear-gradient(rgb(181, 214, 197), #3d9970);
+}
+.btn--gradient-red {
+  background: linear-gradient(rgb(255, 207, 207), #f80c0c);
+}
+.btn--gradient-lightblue {
+  background: linear-gradient(lightblue, #2f98f5);
+}
+
+.btn--radius-max {
+  border-radius: 30px;
+}
+
+.btn--border {
+  border-bottom: 4px solid rgba(128, 128, 128, 0.6);
+}
