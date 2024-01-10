@@ -12,6 +12,7 @@ div {
 }
 
 .div2 {
+  z-index: 2;
   width: 190px;
   height: 150px;
   position: absolute;
@@ -20,6 +21,7 @@ div {
 }
 
 .div3 {
+  z-index: 3;
   width: 450px;
   height: 120px;
   position: absolute;
@@ -28,6 +30,7 @@ div {
 }
 
 .div4 {
+  z-index: 4;
   width: 90px;
   height: 350px;
   position: absolute;
