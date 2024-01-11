@@ -1,0 +1,13 @@
+.container {
+  display: inline-block;
+  position: relative;
+}
+
+pre {
+  font-family: cursive;
+  font-size: 26px;
+  color: white;
+  position: absolute;
+  right: 1.5em;
+  top: 15em;
+}
