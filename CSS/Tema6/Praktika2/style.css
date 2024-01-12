@@ -1,0 +1,37 @@
+img {
+  width: 100%;
+}
+
+.btn {
+  padding: 10px 100px 10px 100px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+  color: gray;
+  font-weight: bold;
+  border-color: gray;
+}
+
+.container {
+  display: flex;
+  background-color: rgba(255, 228, 196, 0.587);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div {
+  background-color: white;
+  flex-basis: 250px;
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+}
+
+.title {
+  font-size: xx-large;
+}
+
+.text {
+  font-style: normal;
+  font-size: 16px;
+}
