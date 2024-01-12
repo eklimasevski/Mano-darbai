@@ -1,8 +1,4 @@
-img {
-  width: 100%;
-}
-
-.btn {
+.card__btn {
   padding: 10px 100px 10px 100px;
   margin: 10px;
   background-color: white;
@@ -12,6 +8,19 @@ img {
   border-color: gray;
 }
 
+.card__image {
+  width: 100%;
+}
+
+.card__title {
+  font-size: xx-large;
+}
+
+.card__text {
+  font-style: normal;
+  font-size: 16px;
+}
+
 .container {
   display: flex;
   background-color: rgba(255, 228, 196, 0.587);
@@ -19,19 +28,10 @@ img {
   justify-content: center;
 }
 
-div {
+.card {
   background-color: white;
   flex-basis: 250px;
   text-align: center;
   margin: 15px;
   padding: 10px;
-}
-
-.title {
-  font-size: xx-large;
-}
-
-.text {
-  font-style: normal;
-  font-size: 16px;
 }
