@@ -17,14 +17,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
             driver.get("https://demo.opencart-extensions.co.uk");
 
-            WebElement accountLink = driver.findElement(By.linkText("My Account"));
+            WebElement accountLink = driver.findElement(By.cssSelector("a[title='My Account']"));
             accountLink.click();
 
             WebElement loginLink = driver.findElement(By.linkText("Login"));
             loginLink.click();
 
             WebElement emailInput = driver.findElement(By.name("email"));
-            emailInput.sendKeys("ergio20kr@gmail.com");
+            emailInput.sendKeys("Testukas123@gmail.com");
 
             WebElement passwordInput = driver.findElement(By.name("password"));
             passwordInput.sendKeys("Testukas123");
@@ -47,7 +47,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
             loginLink.click();
 
             WebElement emailInput = driver.findElement(By.name("email"));
-            emailInput.sendKeys("ergio20kr@gmail.com");
+            emailInput.sendKeys("Testukas123@gmail.com");
 
             WebElement passwordInput = driver.findElement(By.name("password"));
             passwordInput.sendKeys("Testukas");
@@ -55,9 +55,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
             WebElement loginButton = driver.findElement(By.cssSelector("[value='Login']"));
             loginButton.click();
 
-            WebElement alertMessage = driver.findElement(By.cssSelector(".alert.alert-danger"));
+            WebElement errorMessage = driver.findElement(By.cssSelector(".alert.alert-danger"));
             String expectedError = "Warning: No match for E-Mail Address and/or Password.";
-            assertEquals(expectedError, alertMessage.getText());
+            assertEquals(expectedError, errorMessage.getText());
 
             driver.quit();
 
