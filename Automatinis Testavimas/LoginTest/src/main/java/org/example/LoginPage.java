@@ -12,22 +12,36 @@ public class LoginPage extends BasePage {
     @FindBy(css = "input[name='password']")
     WebElement passwordInput;
 
-    @FindBy(css = ".orangehrm-demo-credentials.oxd-sheet.oxd-sheet--gray-lighten-2.oxd-sheet--gutters.oxd-sheet--rounded > p:nth-of-type(1)")
+    @FindBy(css = "p[class='oxd-text oxd-text--p']")
     WebElement username;
 
-    @FindBy(css = ".orangehrm-demo-credentials.oxd-sheet.oxd-sheet--gray-lighten-2.oxd-sheet--gutters.oxd-sheet--rounded > p:nth-of-type(2)")
+    @FindBy(css = "p[class='oxd-text oxd-text--p']:nth-of-type(2)")
     WebElement password;
 
-    @FindBy(xpath = "//div[@id='app']/div[@class='orangehrm-login-layout']/div[@class='orangehrm-login-layout-blob']//form[@action='/web/index.php/auth/validate']/div[3]/button[@type='submit']")
+    @FindBy(css = "button[type='submit']")
     WebElement loginButton;
+
+    @FindBy(css = "div[role='alert']")
+    WebElement errorMessage;
+
+    @FindBy(id = "dashboard-element-id")
+    WebElement dashboard;
 
     public LoginPage(WebDriver driver) {
         super(driver);
     }
 
+    public boolean messageAfterWrongLogin() {
+        return errorMessage.isDisplayed();
+    }
+
     public void enterUsername() {
         String getUsername = username.getText();
         usernameInput.sendKeys(getUsername.substring(getUsername.lastIndexOf(" "), getUsername.length()).trim());
+    }
+
+    public void wrongUsername() {
+        usernameInput.sendKeys("123");
     }
 
     public void enterPassword() {
@@ -38,5 +52,6 @@ public class LoginPage extends BasePage {
     public void clickButton() {
         loginButton.click();
     }
+
 
 }
