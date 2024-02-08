@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  width: 750px;
+  height: 100px;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 80px 160px 160px 80px;
+  grid-gap: 0.5rem;
+}
+
+.header {
+  grid-row: 1 / 2;
+  grid-column: 1 / 5;
+  background-color: #002439;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.footer {
+  grid-row: 4 / 5;
+  grid-column: 1 / 5;
+  background-color: #002439;
+  color: white;
+  padding: 10px;
+}
+
+body {
+  margin: 20px;
+}
+
+.item {
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.article {
+  background-color: rgb(26, 187, 187);
+  border-radius: 7px;
+  padding: 10px;
+}

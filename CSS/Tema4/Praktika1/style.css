@@ -1,0 +1,9 @@
+.bg {
+  height: 800px;
+  width: 1200px;
+  background-image: url("./raspberry.png"), url("./fruits.png"),
+    url("./konfeti.png");
+  background-size: 25%, 35%, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 0px 10px, bottom right;
+}

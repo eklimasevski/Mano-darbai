@@ -1,0 +1,14 @@
+.box {
+  width: 30%;
+  float: left;
+  box-sizing: border-box;
+  background-color: #929292;
+  padding: 15px;
+}
+
+.box p {
+  background-color: #343434;
+  padding: 15px;
+  color: white;
+  margin: 0;
+}

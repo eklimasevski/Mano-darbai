@@ -1,0 +1,98 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #384047;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+/* Jūsų CSS prasideda čia */
+form {
+  margin: 10px auto;
+  width: 400px;
+  padding: 30px 10px;
+  border: 1px solid rgba(128, 128, 128, 0.176);
+  background-color: rgba(128, 128, 128, 0.176);
+}
+
+.number {
+  border-radius: 50%;
+  background-color: green;
+  color: white;
+  padding: 2px 8px 2px 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: -1em;
+}
+
+form button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: -15px;
+}
+
+#name,
+#mail,
+#password {
+  width: 100%;
+  border: none;
+  height: 35px;
+  background-color: rgba(128, 128, 128, 0.168);
+  margin-bottom: 15px;
+}
+
+#bio {
+  width: 100%;
+  border: none;
+  height: 5em;
+  background-color: rgba(128, 128, 128, 0.168);
+  margin-bottom: 25px;
+}
+
+#job {
+  width: 100%;
+  height: 20px;
+  background-color: rgba(128, 128, 128, 0.168);
+}
+
+legend {
+  margin: 10px;
+}
+
+#over_13 {
+  margin-bottom: 15px;
+}
+
+label[for="bio"] {
+  margin-top: 20px;
+}
+
+select {
+  margin-bottom: 25px;
+}

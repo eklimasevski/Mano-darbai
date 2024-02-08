@@ -1,0 +1,31 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+table {
+  border: 2px solid black;
+  border-radius: 10px;
+  border-width: hidden;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: green;
+  color: white;
+}
+
+tr:nth-child(2n) {
+  color: green;
+  background-color: #b5b5b5;
+  opacity: 0.5;
+}
+
+tbody tr:hover {
+  background-color: rgb(21, 181, 181);
+  font-weight: bolder;
+}
+
+td {
+  padding-left: 10px;
+}

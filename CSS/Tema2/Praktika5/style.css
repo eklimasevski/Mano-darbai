@@ -1,0 +1,23 @@
+a {
+  color: blue;
+}
+
+/* Nuorodos, 
+  kurios prasideda ženklu #,
+  fono spalva yra auksinė */
+a[href*="#"] {
+  background-color: gold;
+}
+
+/* Nuorodos, 
+  kurių tinklalapių plėtiniai yra .org, 
+  teksto spalva yra raudona */
+a[href*=".org"] {
+  color: red;
+}
+/* !!! Nuorodos, 
+  kurių URL adrese yra žodis "example",
+  fono spalva yra rožinė */
+a[href*="example"] {
+  background-color: pink;
+}

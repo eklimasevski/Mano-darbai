@@ -1,0 +1,20 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1:first-child {
+  color: aquamarine;
+}
+
+p:nth-child(even) {
+  color: aqua;
+}
+
+p:nth-child(odd) {
+  color: purple;
+}
+
+p:hover {
+  color: bisque;
+}
