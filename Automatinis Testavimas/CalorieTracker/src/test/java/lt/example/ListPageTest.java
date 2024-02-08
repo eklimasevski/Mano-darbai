@@ -155,4 +155,40 @@ public class ListPageTest extends BasePageTest {
         Assertions.assertNotEquals(caloriesAfterUpdate, caloriesBeforeUpdate.replaceAll("[^0-9]", ""));
         // Žinau kad patikrinimas nera geras, bet kitaip man nesigavo :(
     }
+
+    @Test
+    void checkOrOnlyStrings() {
+        List<String> meal = Arrays.asList("Burger", "Apple", "Banana", "Coffe", "Cola");
+        List<Integer> calories = Arrays.asList(295, 72, 105, 2, 136);
+
+        listPage = new ListPage(driver);
+        for (int i = 0; i < meal.size(); i++) {
+            listPage.enterMeal(meal.get(i));
+            listPage.enterCalories(calories.get(i));
+            listPage.clickAddButton();
+            Assertions.assertTrue(listPage.checkOrAdded());
+        }
+
+        for (String meals : meal) {
+            Assertions.assertTrue(meals.matches("[a-zA-Z]+"), "Neteisingas formatas " + meals);
+        }
+    }
+
+    @Test
+    void checkOrOnlyIntegers() {
+        List<String> meal = Arrays.asList("Burg3r", "Apple", "B@nana", "Coffe", "Cola");
+        List<Integer> calories = Arrays.asList(295, 72, 105, 2, 136);
+
+        listPage = new ListPage(driver);
+        for (int i = 0; i < meal.size(); i++) {
+            listPage.enterMeal(meal.get(i));
+            listPage.enterCalories(calories.get(i));
+            listPage.clickAddButton();
+            Assertions.assertTrue(listPage.checkOrAdded());
+        }
+        for (Integer calorie : calories) {
+            Assertions.assertTrue(calorie.toString().matches("[0-9]+"), "Neteisingas formatas " + calorie);
+        }
+    }
+
 }
